@@ -5,7 +5,7 @@ import { mediaNota } from "./Atividades/02"
 import { Wallet } from "./Atividades/03"
 import { Produto } from "./Atividades/04"
 import { ListProducts } from "./Atividades/04"
-
+import { showUser } from "./Atividades/05"
 
 // let newLivro1 = new Livro();
 // newLivro1.titulo = "Jujutso Kaisen"
@@ -55,4 +55,21 @@ import { ListProducts } from "./Atividades/04"
 // lista.list()
 
 //5
+
+const usuario1 = {
+    nome: "kadu",
+    idade: 28,
+    ocupacao: "Aluno"
+}
+const usuario2 = {
+    nome: "daniele",
+    idade: 48,
+    ocupacao: "Cozinheira",
+    salario: 1500 
+}
+
+showUser(usuario1)
+showUser(usuario2)
+
+
 
